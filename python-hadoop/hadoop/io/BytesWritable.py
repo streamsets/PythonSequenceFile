@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from Writable import AbstractValueWritable
+from hadoop.io.Writable import AbstractValueWritable
 
 class BytesWritable(AbstractValueWritable):
     def write(self, data_output):

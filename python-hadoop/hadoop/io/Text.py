@@ -16,8 +16,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from Writable import WritableComparable
-from WritableUtils import readVInt, writeVInt
+from hadoop.io.Writable import WritableComparable
+from hadoop.io.WritableUtils import readVInt, writeVInt
 
 class Text(WritableComparable):
     def __init__(self):

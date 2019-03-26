@@ -16,6 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import io
-import util
+import hadoop.io
+import hadoop.util
 

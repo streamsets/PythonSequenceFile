@@ -16,18 +16,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import OutputStream
-import InputStream
+import hadoop.io.OutputStream
+import hadoop.io.InputStream
 
-import SequenceFile
-import ArrayFile
-import MapFile
-import SetFile
+import hadoop.io.SequenceFile
+import hadoop.io.ArrayFile
+import hadoop.io.MapFile
+import hadoop.io.SetFile
 
-from Writable import *
-from IntWritable import *
-from BytesWritable import *
-from Text import *
-import WritableUtils
+from hadoop.io.Writable import *
+from hadoop.io.IntWritable import *
+from hadoop.io.BytesWritable import *
+from hadoop.io.Text import *
+import hadoop.io.WritableUtils
 
-import compress
+import hadoop.io.compress

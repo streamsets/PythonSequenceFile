@@ -18,8 +18,8 @@
 
 import os
 
-from IntWritable import LongWritable
-import SequenceFile
+from hadoop.io.IntWritable import LongWritable
+import hadoop.io.SequenceFile
 
 INDEX_FILE_NAME = 'index'
 DATA_FILE_NAME = 'data'

@@ -1,9 +1,0 @@
-{
-  "type": "record",
-  "name": "FSObject",
-
-  "fields": [
-    { "name": "path", "type": "string" }
-  ]
-}
-

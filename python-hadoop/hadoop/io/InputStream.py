@@ -105,7 +105,7 @@ class FileInputStream(InputStream):
             data_length = len(data)
             byte_buffer.append(data)
             length -= data_length
-        return ''.join(byte_buffer)
+        return b''.join(byte_buffer)
 
     def skip(self, n):
         skip_length = 0

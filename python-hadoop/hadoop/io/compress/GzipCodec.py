@@ -19,7 +19,7 @@
 import gzip
 
 from hadoop.io.InputStream import DataInputBuffer
-import StringIO
+from io import StringIO
 
 class GzipCodec:
     def compress(self, data):
