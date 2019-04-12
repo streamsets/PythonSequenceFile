@@ -2,9 +2,9 @@
 
 from setuptools import setup
 
-setup(name='Hadoop',
-      version='0.1.4',
-      description='Python Hadoop I/O Utilities',
+setup(name='PythonSequenceFile',
+      version='0.0.1',
+      description='Python Hadoop Sequence File Utilities',
       license="Apache Software License 2.0 (ASF)",
       author='Matteo Bertozzi',
       author_email='theo.bertozzi@gmail.com',
